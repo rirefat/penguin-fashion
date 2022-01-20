@@ -3,11 +3,13 @@
 
 body{
     margin: 0;
-    background-color: #E5E5E5;
+    background-color: #f1f2f6;
 }
-
+nav{
+    background-color: red;
+}
 section{
-    background-color: #E5E5E5;
+    background-color: #f1f2f6;
 }
 hr{
     background-color: lightslategray;
@@ -27,7 +29,7 @@ h1{
     color: #FABE4C;
 }
 
-.header{
+.header, .navbar{
     background-color: #FFFBF0;
 }
 .buy-now-btn{
@@ -55,6 +57,12 @@ h1{
     color: #FABE4C;
     font-size: 2em;
     font-weight: 700;
+}
+
+/* Service List  */
+.service-list{
+    background-color: white;
+    border-radius: 15px;
 }
 /* Media Query For Screen size of 768px */
 @media only screen and (max-width:768px) {
