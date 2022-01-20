@@ -1,0 +1,64 @@
+/* Common Section */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    background-color: #E5E5E5;
+}
+
+section{
+    background-color: #E5E5E5;
+}
+hr{
+    background-color: lightslategray;
+    border: transparent;
+    margin: 0;
+}
+
+/* Header Section */
+h1{
+    color: 363958;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    padding-right: 10%;
+}
+.highlighted-text{
+    color: #FABE4C;
+}
+
+.header{
+    background-color: #FFFBF0;
+}
+.buy-now-btn{
+    background-color: #A4BC46;
+    color: white;
+    font-weight: 700;
+}
+
+.buy-now-btn:hover{
+    background-color: #5d6b23;
+    color: whitesmoke;
+}
+
+/* Products Section */
+.img{
+    background-color: #F1F1F1;
+    border-radius: 15px;
+}
+.card-title {
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.price{
+    color: #FABE4C;
+    font-size: 2em;
+    font-weight: 700;
+}
+/* Media Query For Screen size of 768px */
+@media only screen and (max-width:768px) {
+    h1{
+        font-size: 2rem;
+    }
+}
